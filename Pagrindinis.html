@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+	<head>
+ 	 	<title>Nauja sofa | Pagrindinis </title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+		  <link type="text/css" rel="stylesheet" href="tooltip/themes/2/tooltip.css" />
+
+		<script type="text/javascript" src="tooltip/themes/2/tooltip.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="hc-sticky-2.2.3/dist/hc-sticky.js"></script>
+		  
+
+		<link rel="stylesheet" type="text/css" href="stilius.css">
+		  
+		  <script>
+			"use strict";
+		
+			(function($) {
+			  $(document).ready(function() {
+				var $sticky = $('#meniu');
+		
+				$sticky.hcSticky({
+				  stickTo: '#turinys',
+				  responsive: {
+					690: {
+					  disable: true
+					}
+				  }
+				});
+				
+				$sticky.hcSticky('update', {
+  				bottomEnd:640
+				});
+			  });
+			
+			})(jQuery);
+
+		  </script>
+	</head>
+
+
+
+	<style>
+	</style>
+
+	<body>
+
+		<div class="container-fluid" id="turinys">
+		
+  
+  		<nav class="navbar navbar-expand-lg navbar-light" id="meniu">
+
+   		 	<img src="images/logo.png" style="width:50px" id="mnt">
+   		 	<a class="navbar-brand" href="Pagrindinis.html" id="uzr">Nauja sofa</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      						<span class="navbar-toggler-icon" ></span>
+				</button>
+				
+    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    			<ul class="navbar-nav mr-auto">
+     	 			<li class="nav-item">
+      					<a class="nav-link" id="uzr2" href="Lenkija.html">Darbai</a>
+     	 			</li>
+    	  			<li class="nav-item">
+    	 				 <a class="nav-link" id="uzr3" href="Slovakija.html">Idėjos</a>
+    	  			</li>
+   		 		</ul>
+   		 	</div>
+ 		</nav>
+
+		 	<div class="row justify-content-between" id="pagr">
+				<div class="col-xl-7 col-md-8 col-xs-6" id="info1">
+					<div class="col-xl-7 offset-3 col-md-6 col-sm-7" id="pagsofa">
+						<img src="images/resp.png" style="width:150%" alt="Pagr. foto" id="sofa">
+							<div class="burb">
+								<input type="checkbox" id="click">
+								<label for="click" class="click-me"></label>
+								<div class="lentele">
+									<div class="header">
+										<h2>Sofa</h2>
+									</div>
+										<p>Pervilkimo kaina: nuo 10 €/m² </br> 
+										Dizaino paslauga nuo 50 €/vnt</p>
+									<label for="click" class="close-btn">Uždaryti</label>
+								</div>
+							</div>
+					</div>
+	
+				</div>
+
+				<div class="col-md-4" id="info2">
+					<div id="tekst">
+						<h1> Baldų renovacija</h1> <br>
+						<h6> Teikiame minkštų baldų pervilkimo, baldų perdažymo, dizaino konsultacijų,
+							antikvarinių baldų supirkimo paslaugas.
+						</h6>
+					</div>
+				</div>
+
+				<!-- cia reiks grey animacijos <img src="images/grey.png" style="width:117%" alt="fonas"> -->
+
+			</div>
+
+			<div class="row" id="foto">
+
+				<div class="col-2 offset-2" id="fotos">
+					<span class="tooltip" onmouseover="tooltip.pop(this, '200€')">
+						<img src="images/stalas.jpg" style="width:155%" alt="Pvz foto">
+					</span>
+					<span class="tooltip" onmouseover="tooltip.pop(this, '359€')">
+						<img src="images/staliukas.jpg" style="width:150%" alt="Pvz foto">
+					</span>
+				</div>
+				<div class="col-1"></div>
+				<div class="col-2" id="fotos1">
+					<span class="tooltip" onmouseover="tooltip.pop(this, '159€')">
+						<img src="images/sofa.jpg" style="width:138%" alt="Pvz foto">
+					</span>
+					<span class="tooltip" onmouseover="tooltip.pop(this, '259€')">
+						<img src="images/fotelis2.jpg" style="width:138%" alt="Pvz foto">
+					</span>
+				</div>
+
+			</div>
+
+			<div class="row justify-content-around">
+				<div class="col-4">
+			
+				</div>
+				<div class="col-4">
+				  
+				</div>
+			  </div>
+					
+		</div>
+
+		<footer>
+			<p>Kontaktai</p>
+			<p>El. paštas: <a href="nauja.sofa@example.com">
+			nauja.sofa@example.com</a>.</p>
+		  </footer>
+
+		
+<script>
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 80) {
+    document.getElementById("meniu").style.padding = "0px 0px 0px 150px";
+    document.getElementById("uzr").style.fontSize = "20px";
+	document.getElementById("uzr2").style.fontSize = "17px";
+	document.getElementById("uzr3").style.fontSize = "17px";
+	document.getElementById("mnt").style.width = "40px";
+	
+  } else {
+    document.getElementById("meniu").style.padding = "8px 0px 8px 150px";
+	document.getElementById("uzr").style.fontSize = "25px";
+	document.getElementById("uzr2").style.fontSize = "18px";
+	document.getElementById("uzr3").style.fontSize = "18px";
+	document.getElementById("mnt").style.width = "50px";
+  }
+}
+	/*
+		var Sticky = new hcSticky('#ban', {
+			  stickTo: '#turinys'
+		});
+
+	*/
+</script>
+	
+
+	</body>
+</html>

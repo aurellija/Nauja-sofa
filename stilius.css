@@ -1,0 +1,281 @@
+ body{
+    position: relative;
+    height: 100%;
+}
+#turinys{
+    background-image: url("images/fonas3.png");
+    background-size:100%;
+   
+}
+#info1{
+    /*border:5px solid green;*/
+}
+#info2{
+   /* border:5px solid yellow;*/
+}
+#tekst h1{
+    color: rgb(220,218,209);
+    padding:150px 0px 0px 0px;
+    text-align: right;
+}
+#tekst h6{
+    color: rgb(220,218,209);
+    padding:20px 0px 0px 0px;
+    
+    text-align:justify;
+}
+
+#pagsofa{
+    /*border:1px solid red;*/
+    margin-top:75px;
+    margin-bottom:88px;
+    position:relative;
+}
+
+.col-md-4{
+    padding:0px 30px 0px 30px;
+}
+#fotos img, #fotos1 img{
+    padding-bottom:50px;
+}
+
+#fotos img{
+    padding-left:35px;
+}
+ 
+}
+footer{
+    height:80px;
+    background-color: #dddddd;
+    border:1px solid rgb(161, 161, 161);
+}
+footer p{
+    text-align: center;
+}
+
+#sofa{
+    margin-top:30px;
+    margin-left:35px;
+}
+
+@media screen and (max-width: 800px) {
+    #sofa{
+        margin-top:0px;
+        margin-left:-80px;
+    }
+}
+
+
+#g{
+    border:1px solid rgb(161, 161, 161);
+}
+
+#meniu{
+    margin-left:-14px;
+    margin-right:-14px;
+    padding-left: 150px;
+    background-color:white;
+    border-bottom: 1px solid rgb(161, 161, 161);
+    z-index:3;
+}
+#mnt{
+    margin-right:15px;
+}
+#pagr{
+    
+    height:50%;
+}
+
+/* Burbulas pradzia*/
+
+.burb{
+	position: absolute;
+    /*transform: translateY(20%);*/
+    top:56%;
+    right:1%;
+	width:0.5%;
+}
+.lentele{
+	position: absolute;
+	transform: translate(-115%, -85%);
+	font-family:Cambria;
+}
+
+#click{
+	display: none;
+}
+.click-me{
+	cursor: pointer;
+	transition: .5s;
+	border:1px solid #759B9C;
+	width:620%;
+	height: auto;
+	position:relative;
+	padding-top:500%;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-iteration-count:10;
+	box-shadow: 0 0 12px 0 white;
+}
+
+@keyframes example {
+	from {background-color: #78a8ab ;}
+	to {background-color: #b2c1c2;}
+}
+.click-me:hover{
+	background: #0087a3;
+}
+.lentele{
+	opacity: 0;
+	visibility: hidden;
+	width: 250px;
+	height:160px;
+	background: white;
+	border-radius: 3px;
+	transition: .3s ease-in;
+	box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+}
+#click:checked ~ .lentele{
+	opacity: 1;
+	visibility: visible;
+}
+.header{
+	height:40px;
+	background-color:#5c94a4;
+	overflow: hidden;
+	border-radius: 3px 3px 0 0;
+	box-shadow: 0 2px 3px 0 rgba(114, 114, 114, 0.2);
+	padding:5px;
+}
+.header h2{
+	color: white;
+	font-size:18px;
+	font-weight: normal;
+	float:left;
+	padding:5px 0px 5px 25px;
+}
+
+.lentele p{
+    padding:15px 0px 15px 0px;
+	font-size: 15px;
+	color: #1a1a1a;
+    text-align: center;
+}
+
+.close-btn{
+    position: absolute;
+	bottom: 10px;
+	right: 25px;
+	border: 1px solid #0087a3;
+	border-radius: 3px;
+    color: #0087a3;
+	padding: 7px 7px;
+	font-size: 11px;
+	cursor: pointer;
+}
+.close-btn:hover{
+	background: #65b8c9;
+	color: white;
+	transition: .5s;
+}
+#uzr{
+    color:#474747;
+}
+/* Burbulas pabaiga*/
+
+
+.navbar-brand{
+    font-size: 26px;
+}
+.navbar-brand:hover,.nav-link:hover{
+    color:#314621;
+}
+.nav-link{
+    color:rgb(199, 199, 199);
+    padding-bottom:12px;
+}
+
+ul{
+    margin-left:15px;
+    margin-top:7px;
+    font-size:18px;
+}
+
+a:hover{
+    text-decoration:none;
+}
+.flex-column{
+    text-align: left;
+}
+
+
+
+h6{
+    font-family: Cambria;
+    font-size: 18px;
+}
+a,h5,p{
+    font-family: Cambria;
+}
+
+.container-fluid{
+    font-family:Cambria;
+    text-align: justify;
+}
+
+.btn-success{
+    width: 70px;
+    background-color: #9c9c9c;
+    border:none;
+    border-radius: 15px;
+}
+.btn-success:hover{
+    background-color: #89ca57;
+}
+#kairen{
+    float:left;
+    padding-right:5px;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+    
+    @media screen and (max-width: 990px) {
+    
+        .nav-item{
+            text-align: center;
+            padding-right:35px;
+        }
+        .card{
+            margin-bottom:20px;
+        }
+    }
+
+    @media screen and (min-width: 1200px) {
+        #kort{
+            padding-left:150px;
+            padding-right:150px;
+        }
+    }
+ 
+
+ 
