@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link rel="icon" href="images/ikona2.png">
+ 	 	<title>Nauja sofa | Darbai </title>
+  		<meta charset="utf-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+	
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+		<script src="hc-sticky-2.2.3/dist/hc-sticky.js"></script>
+   
+     
+            <link rel="stylesheet" href="valid/site/style.css">
+            <script type="text/javascript" src="valid/dist/valid-form.js"></script>
+      
+
+		<link rel="stylesheet" type="text/css" href="stilius.css">
+		  
+		  <script>
+			"use strict";
+			(function($) {
+			  $(document).ready(function() {
+				var $sticky = $('#meniu');
+		
+				$sticky.hcSticky({
+				  stickTo: '#turinys',
+				  responsive: {
+					690: {
+					  disable: true
+					}
+				  }
+				});
+				$sticky.hcSticky('update', {
+  				bottomEnd:640
+				});
+			  });
+			})(jQuery);
+
+
+		  </script>
+    </head>
+    
+	<body>
+
+		<div class="container-fluid" id="turinys">
+		
+           
+
+  		<nav class="navbar navbar-expand-lg navbar-light" id="meniu">
+
+   		 	<img src="images/logo.png" style="width:50px" id="mnt">
+   		 	<a class="navbar-brand" href="index.html" id="uzr">Nauja sofa</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+						aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      						<span class="navbar-toggler-icon" ></span>
+				</button>
+				
+    		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link"  href="Darbai.html">Darbai</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="Idejos.html">Idėjos</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link"  href="Spalvos.html">Spalvos</a>
+        </li>
+          </ul>
+   		 	</div>
+ 		</nav>
+
+         <div class="row justify-content-between" id="pagr">
+            <div class="col-xl-7 col-sm-10 offset-1" id="info3">
+
+         <div class="container">
+            
+            <h1>Užsisakykite konsultaciją</h1>
+      
+            <div class="example-form example-form_after">
+         </br>
+              <form method="post" action="/">
+                <div class="form-group">
+                  <label>Jūsų el. paštas</label>
+                  <input
+                    required
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    pattern="[ab]+@.+"
+                    data-patternMismatch="Neteisingas el. pašto adresas"
+                    placeholder="pavyzdys@gmail.com" />
+                </div>
+                <div class="form-group" >
+                  <label>Paslaugos</label>
+                  <select required class="form-control" name="animal" id="pasl">
+                    <option value="">Pasirinkite paslaugą</option>
+                    <option value="cat">Baldo spalvos atnaujinimas</option>
+                    <option value="dog">Baldo pervilkimas</option>
+                    <option value="catdog">Viso baldo dizaino keitimas</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>Kaip norėtumėte pakeisti baldą?</label>
+                  <textarea
+                    required
+                    class="form-control"
+                    name="story"
+                    pattern="[ab ]+"
+                    rows="4"
+                    data-valueMissing="Užpildykite formą"
+                    data-patternMismatch="Plz only a and b characters!"
+                    placeholder="Aprašykite pageidaujamą rezultatą"></textarea>
+                </div>
+                <button type="submit">Siųsti</button>
+              </form>
+            </div>
+        
+          </div>
+        </div>
+    </div>
+            
+        </div>
+
+					
+		
+        <div class="card">
+          <div class="card-header">
+      <a href="Uzsakymas.html" class="btn btn-primary" id="uzsak">Užsisakyti</a>
+          </div>
+          <div class="card-body">
+              <div class="row justify-content-center">
+                  <div class="col-lg-2 col-sm-3 col-4">   <a href="#" class="card-text">info@naujasofa.lt  </p> </a></div>
+                  <div class="col-lg-2 col-sm-3 col-4">     <p class="card-text">Pušyno g. 54, Vilnius  </p></div>
+                  <div class="col-lg-2 col-sm-3 col-4">     <p class="card-text">8 000 1200   </p> </div>
+                 
+              </div> 
+         
+          </div>
+        </div>
+
+		
+<script>
+
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+var x = window.matchMedia("(max-width: 991px)");
+var sar = document.getElementsByTagName("LI");
+var i;
+
+  if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 80) {
+
+	document.getElementById("meniu").style.padding = "0px 0px 0px 150px";
+	document.getElementById("uzr").style.fontSize = "20px";
+
+	for (i = 0; i < sar.length; i++) { sar[i].style.fontSize = "17px"; }
+	
+	document.getElementById("mnt").style.width = "40px";
+
+	if(x.matches){ 
+		document.getElementById("uzr").style.padding = "0px 0px 0px 30px";
+		document.getElementById("meniu").style.padding = "0px 20px 0px 20px";
+	}
+  }
+   else {
+    document.getElementById("meniu").style.padding = "8px 0px 8px 150px";
+	document.getElementById("uzr").style.fontSize = "25px";
+
+	for (i = 0; i < sar.length; i++) { sar[i].style.fontSize = "18px"; }
+
+	document.getElementById("mnt").style.width = "50px";
+	if(x.matches){ 
+		document.getElementById("uzr").style.padding = "0px 0px 0px 30px";
+		document.getElementById("meniu").style.padding = "0px 20px 0px 20px";
+	}
+  }
+}
+
+    var forms = document.querySelectorAll('.example-form_before form')
+    forms.forEach(function (form) {
+      ValidForm(form)
+    })
+
+    var forms = document.querySelectorAll('.example-form_after form')
+    forms.forEach(function (form) {
+      ValidForm(form, {errorPlacement: 'after'})
+    })
+</script>
+	
+
+</body>
+    
+
+<style media="screen">
+    form .form-control.invalid {
+      border-color: red;
+    }
+
+    /* Styling the validation errors */
+    .example-form .form-group {
+      position: relative;
+    }
+    .example-form .form-group .validation-error {
+      color: red;
+      font-size: 14px;
+    }
+    .example-form_before .form-group .validation-error {
+      position: absolute;
+      right: 0;
+      top: 1px;
+    }
+  </style>
+</html>
