@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <title>ValidForm Examples Tho</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="./site/style.css">
+  <script type="text/javascript" src="./dist/valid-form.js"></script>
+
+  <style media="screen">
+    form .form-control.invalid {
+      border-color: red;
+    }
+
+    /* Styling the validation errors */
+    .example-form .form-group {
+      position: relative;
+    }
+    .example-form .form-group .validation-error {
+      color: red;
+      font-size: 14px;
+    }
+    .example-form_before .form-group .validation-error {
+      position: absolute;
+      right: 0;
+      top: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="navbar">
+      <a class="navbar__brand" href="https://pageclip.co">
+        <img src="./site/mark-gradient.png">
+      </a>
+    </div>
+
+    <h1>ValidForm</h1>
+
+    <p>
+      ValidForm is a thin JavaScript wrapper around the HTML5 Form Validation
+      features. <a href="https://github.com/Pageclip/valid-form">Check out the
+      code &rarr;</a>
+    </p>
+
+    <p>
+      Submit these forms with no input, then mess with the input to get a feel for how
+      they behave.
+    </p>
+
+    <!-- Example 1 -->
+    <h2>Default Example</h2>
+    <div class="example-form example-form_before">
+      <div class="example-title">Example</div>
+      <form method="post" action="/">
+        <div class="form-group">
+          <label>Your Email</label>
+          <input
+            required
+            class="form-control"
+            type="email"
+            name="email"
+            pattern="[ab]+@.+"
+            data-valueMissing="Need an email!"
+            data-patternMismatch="Only a and b characters allowed!"
+            placeholder="a@b.com" />
+        </div>
+        <div class="form-group">
+          <label>Favorite Animal</label>
+          <select required class="form-control" name="animal">
+            <option value="">pick one!</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="catdog">Catdog</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>A Story</label>
+          <textarea
+            required
+            class="form-control"
+            name="story"
+            pattern="[ab ]+"
+            rows="4"
+            data-valueMissing="Write me a story plz"
+            data-patternMismatch="Plz only a and b characters!"
+            placeholder="Tell me a story!"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <h2>Example With Errors After</h2>
+    <div class="example-form example-form_after">
+      <div class="example-title">Example</div>
+      <form method="post" action="/">
+        <div class="form-group">
+          <label>Your Email</label>
+          <input
+            required
+            class="form-control"
+            type="email"
+            name="email"
+            pattern="[ab]+@.+"
+            data-patternMismatch="Only a and b characters allowed!"
+            placeholder="a@b.com" />
+        </div>
+        <div class="form-group">
+          <label>Favorite Animal</label>
+          <select required class="form-control" name="animal">
+            <option value="">pick one!</option>
+            <option value="cat">Cat</option>
+            <option value="dog">Dog</option>
+            <option value="catdog">Catdog</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>A Story</label>
+          <textarea
+            required
+            class="form-control"
+            name="story"
+            pattern="[ab ]+"
+            rows="4"
+            data-valueMissing="Write me a story plz"
+            data-patternMismatch="Plz only a and b characters!"
+            placeholder="Tell me a story!"></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+  </div>
+
+  <script>
+    var forms = document.querySelectorAll('.example-form_before form')
+    forms.forEach(function (form) {
+      ValidForm(form)
+    })
+
+    var forms = document.querySelectorAll('.example-form_after form')
+    forms.forEach(function (form) {
+      ValidForm(form, {errorPlacement: 'after'})
+    })
+  </script>
+</body>
+</html>
