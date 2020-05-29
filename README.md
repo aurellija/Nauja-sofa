@@ -1,2 +1,4 @@
 # Furniture-renovation-2
-Project that is still in progress. JavaScript plug ins, microanimations
+Check it out: https://lieveheersbeestje1.github.io/Furniture-renovation-2/index.html
+
+A small project for university. Responsive, JavaScript plug ins, microanimations.
