@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+#pasl{
+  height:43px;
+}
+
+.container {
+  max-width: 440px;
+  margin-top:15px;
+  padding: 0 20px;
+  font-family:Cambria;
+
+}
+.container h1{
+  color:rgb(77, 77, 77);
+}
+
+@media screen and (max-width: 656px) {
+  .container h1{
+    font-size:39px;
+    margin-left:-15px;
+  }
+  .form-group label{
+    width:180px;
+  }
+}
+
+.example-form {
+  padding: 20px;
+
+  margin-bottom: 40px;
+}
+
+.example-title {
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ccc;
+  margin-bottom: 15px;
+}
+
+select,
+input,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+form .form-control {
+
+  margin-bottom: 15px;
+  width: 100%;
+  padding: 8px 10px;
+  border: 2px solid #ddd;
+  outline: 0;
+  font-size: 16px;
+  border-radius: 3px;
+  background: white;
+}
+
+form .form-control:focus {
+  border-color: #444;
+}
+
+form .form-group {
+  margin-bottom: 15px;
+}
+
+form .form-group label {
+  display: block;
+  font-size:17px;
+  color:rgb(32, 133, 151)
+}
+
+form .form-group .form-control {
+  margin-bottom: 0;
+}
+
+button {
+  background: rgb(110, 110, 110);
+  color: rgb(247, 247, 247);
+  border-radius: 3px;
+  border: none;
+  padding: 10px 12px;
+  font-size: 14px;
+  cursor: pointer;
+}
