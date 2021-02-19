@@ -1,401 +1,419 @@
- body{
-    position: relative;
-    height: 100%;
+body {
+  position: relative;
+  height: 100%;
 }
-#turinys{
-    background-image: url("images/fonas3.png");
-    background-size:100%;
+#turinys {
+  background-image: url("images/fonas3.png");
+  background-size: 100%;
 }
-#meniu{
-    margin-left:-14px;
-    margin-right:-14px;
-    padding-left: 150px;
-    background-color:white;
-    border-bottom: 1px solid rgb(161, 161, 161);
-    z-index:3;
+#meniu {
+  margin-left: -14px;
+  margin-right: -14px;
+  padding-left: 150px;
+  background-color: white;
+  border-bottom: 1px solid rgb(161, 161, 161);
+  z-index: 3;
 }
-#mnt{
-    margin-right:15px;
+#mnt {
+  margin-right: 15px;
 }
-#info1{
-   /* border:5px solid green;*/
+#info1 {
+  /* border:5px solid green;*/
 }
-#info2{
-    /*border:5px solid yellow;*/
+#info2 {
+  /*border:5px solid yellow;*/
 }
-#info3{
-    margin-top:50px;
-    /*border:5px solid green;*/
+#info3 {
+  margin-top: 50px;
+  /*border:5px solid green;*/
 }
-#eil{
-    margin-top:10px;
-   /* border:1px solid blue;*/
-}
-
-#tekst{
-margin-top:150px;
-font-family: Cambria;
-}
-#tekst2{
-
-    margin-top:50px;
-    font-family: Cambria;
-    }
-
-#tekst h1{
-    color: rgb(220,218,209);
-    text-align: right;
-}
-#tekst, #tekst2 h6{
-    line-height: 1.5;
-    text-indent: 50px;
-    color: rgb(220,218,209);
-    text-align:justify;
+#eil {
+  margin-top: 10px;
+  /* border:1px solid blue;*/
 }
 
-#pagsofa{
-    margin-top:120px;
-    margin-bottom:75px;
-    position:relative;
+#tekst {
+  margin-top: 150px;
+  font-family: Cambria;
 }
-#pagsofa img{
-    margin-left:auto;
-    margin-right:auto;
-    display:block
+#tekst2 {
+  margin-top: 50px;
+  font-family: Cambria;
 }
-#fotos img{
-    padding: 10px;
+
+#tekst h1 {
+  color: rgb(220, 218, 209);
+  text-align: right;
 }
-#foto{
-    padding-bottom:50px;
+#tekst,
+#tekst2 h6 {
+  line-height: 1.5;
+  text-indent: 50px;
+  color: rgb(220, 218, 209);
+  text-align: justify;
+}
+
+#pagsofa {
+  margin-top: 120px;
+  margin-bottom: 75px;
+  position: relative;
+}
+#pagsofa img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#fotos img {
+  padding: 10px;
+}
+#foto {
+  padding-bottom: 50px;
 }
 
 @media screen and (max-width: 1198px) {
-    #info2{
-        background-image: url("images/fon.png");
-        background-size:100%;
-    }
-    #eil2{
-        margin-top:0px;
-    }
-    #eil{
-        margin-top:90px;
-    }
-    #tekst{
-        margin-top:10px;
-    }
+  #info2 {
+    background-image: url("images/fon.png");
+    background-size: 100%;
+  }
+  #eil2 {
+    margin-top: 0px;
+  }
+  #eil {
+    margin-top: 90px;
+  }
+  #tekst {
+    margin-top: 10px;
+  }
 }
-#info4{
-    /*border:2px solid blue;*/
-}
-#uzsak{
-    background-color: rgb(121, 121, 121);
-    border:1px solid rgb(134, 134, 134);
+
+#uzsak {
+  background-color: rgb(121, 121, 121);
+  border: 1px solid rgb(134, 134, 134);
 }
 @media screen and (max-width: 766px) {
-   
-    #eil2{
-        margin-bottom:20px;
-    }
-    #tekst2{
-        padding-top:15px;
-        background-image: url("images/fon.png");
-        background-size:100%;
-    }
-
+  #eil2 {
+    margin-bottom: 20px;
+  }
+  #tekst2 {
+    padding-top: 15px;
+    background-image: url("images/fon.png");
+    background-size: 100%;
+  }
 }
 
 @media screen and (min-width: 1278px) {
-    #pagr1{
-        height:672px;
-    }
+  #pagr1 {
+    height: 672px;
+  }
 }
+
+@media screen and (min-width: 1278px) {
+  #pagr1 {
+    height: 672px;
+  }
+}
+
+@media screen and (min-width: 1678px) {
+  #pagr1 {
+    margin-top: 50px;
+    height: 900px;
+  }
+  #pagr {
+    margin-top: 70px;
+  }
+
+  .blokas {
+    height: 1000px;
+  }
+}
+
 @media screen and (max-width: 991px) {
-  
-    #tekst{
-        margin-bottom:20px;
-        }
-        #info4{
-            background-image: url("images/fon.png");
-            background-size:100%;
-        }
-    #foto{
-        margin-top:40px;
-    }
-    #eil{
-        margin-top:15px;
-    }
-   
-    #meniu{
-        padding-left:20px;
-        padding-right:20px;
-    }
-    #uzr{
-        padding-left:30px;
-    }
+  #tekst {
+    margin-bottom: 20px;
+  }
+  #info4 {
+    background-image: url("images/fon.png");
+    background-size: 100%;
+  }
+  #foto {
+    margin-top: 40px;
+  }
+  #eil {
+    margin-top: 15px;
+  }
+
+  #meniu {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  #uzr {
+    padding-left: 30px;
+  }
 }
-#keisti{
-	transition: transform 1s;
+#keisti {
+  transition: transform 1s;
 }
-#keisti:hover{
-	transform: scale(1.3) translateY(35px);
-	z-index:2;
-	position:relative;
+#keisti:hover {
+  transform: scale(1.3) translateY(35px);
+  z-index: 2;
+  position: relative;
 }
-#g{
-    border:1px solid rgb(161, 161, 161);
+#g {
+  border: 1px solid rgb(161, 161, 161);
 }
 
-
-.card{
-    text-align: center;
-    border:none;
-    height:127px;
+.card {
+  text-align: center;
+  border: none;
+  height: 127px;
 }
 
 /* Burbulas pradzia*/
 
-.burb{
-	position: absolute;
-    /*transform: translateY(20%);*/
-    top:55%;
-    right:39%;
-	width:0.3%;
+.burb {
+  position: absolute;
+  /*transform: translateY(20%);*/
+  top: 55%;
+  right: 39%;
+  width: 0.3%;
 }
-.burb2{
-	position: absolute;
-    /*transform: translateY(20%);*/
-    top:60%;
-    right:20%;
-	width:0.3%;
+.burb2 {
+  position: absolute;
+  /*transform: translateY(20%);*/
+  top: 60%;
+  right: 20%;
+  width: 0.3%;
 }
-.burb3{
-	position: absolute;
-    /*transform: translateY(20%);*/
-    top:56%;
-    left:14%;
-	width:0.3%;
+.burb3 {
+  position: absolute;
+  /*transform: translateY(20%);*/
+  top: 56%;
+  left: 14%;
+  width: 0.3%;
 }
-.lentele{
-    z-index:2;
-	position: absolute;
-	transform: translate(-115%, -85%);
-	font-family:Cambria;
+.lentele {
+  z-index: 2;
+  position: absolute;
+  transform: translate(-115%, -85%);
+  font-family: Cambria;
 }
-.lentele2{
-    z-index:0;
-	position: absolute;
-	transform: translate(-110%, -85%);
-	font-family:Cambria;
+.lentele2 {
+  z-index: 0;
+  position: absolute;
+  transform: translate(-110%, -85%);
+  font-family: Cambria;
 }
 
-#click{
-	display: none;
+#click {
+  display: none;
 }
-.click-me{
-	cursor: pointer;
-	transition: .5s;
-	border:1px solid #759B9C;
-	width:620%;
-	height: auto;
-	position:relative;
-	padding-top:500%;
-	background-color: #bbb;
-	border-radius: 50%;
-	display: inline-block;
-	animation-name: example;
-	animation-duration: 2s;
-	animation-iteration-count:10;
-	box-shadow: 0 0 12px 0 white;
+.click-me {
+  cursor: pointer;
+  transition: 0.5s;
+  border: 1px solid #759b9c;
+  width: 620%;
+  height: auto;
+  position: relative;
+  padding-top: 500%;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: 10;
+  box-shadow: 0 0 12px 0 white;
 }
 
 @keyframes example {
-	from {background-color: #78a8ab ;}
-	to {background-color: #b2c1c2;}
+  from {
+    background-color: #78a8ab;
+  }
+  to {
+    background-color: #b2c1c2;
+  }
 }
-.click-me:hover{
-	background: #0087a3;
+.click-me:hover {
+  background: #0087a3;
 }
-.lentele, .lentele2{
-	opacity: 0;
-	visibility: hidden;
-	width: 250px;
-	height:160px;
-	background: white;
-	border-radius: 3px;
-	transition: .3s ease-in;
-	box-shadow: 0 2px 12px 0 rgba(0,0,0,.4);
+.lentele,
+.lentele2 {
+  opacity: 0;
+  visibility: hidden;
+  width: 250px;
+  height: 160px;
+  background: white;
+  border-radius: 3px;
+  transition: 0.3s ease-in;
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.4);
 }
-#click:checked ~ .lentele{
-	opacity: 1;
-	visibility: visible;
+#click:checked ~ .lentele {
+  opacity: 1;
+  visibility: visible;
 }
-.header{
-	height:40px;
-	background-color:#5c94a4;
-	overflow: hidden;
-	border-radius: 3px 3px 0 0;
-	box-shadow: 0 2px 3px 0 rgba(114, 114, 114, 0.2);
-	padding:5px;
+.header {
+  height: 40px;
+  background-color: #5c94a4;
+  overflow: hidden;
+  border-radius: 3px 3px 0 0;
+  box-shadow: 0 2px 3px 0 rgba(114, 114, 114, 0.2);
+  padding: 5px;
 }
-.header h2{
-	color: white;
-	font-size:18px;
-	font-weight: normal;
-	float:left;
-	padding:5px 0px 5px 25px;
-}
-
-.lentele p{
-    padding:15px 0px 15px 0px;
-	font-size: 15px;
-	color: #1a1a1a;
-    text-align: center;
+.header h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: normal;
+  float: left;
+  padding: 5px 0px 5px 25px;
 }
 
-.close-btn{
-    position: absolute;
-	bottom: 10px;
-	right: 25px;
-	border: 1px solid #0087a3;
-	border-radius: 3px;
-    color: #0087a3;
-	padding: 7px 7px;
-	font-size: 11px;
-	cursor: pointer;
+.lentele p {
+  padding: 15px 0px 15px 0px;
+  font-size: 15px;
+  color: #1a1a1a;
+  text-align: center;
 }
-.close-btn:hover{
-	background: #65b8c9;
-	color: white;
-	transition: .5s;
+
+.close-btn {
+  position: absolute;
+  bottom: 10px;
+  right: 25px;
+  border: 1px solid #0087a3;
+  border-radius: 3px;
+  color: #0087a3;
+  padding: 7px 7px;
+  font-size: 11px;
+  cursor: pointer;
 }
-#uzr{
-    color:#474747;
-    
+.close-btn:hover {
+  background: #65b8c9;
+  color: white;
+  transition: 0.5s;
+}
+#uzr {
+  color: #474747;
 }
 /* Burbulas pabaiga*/
 
-.nav-item{
-    display:block;
-    margin:auto;
+.nav-item {
+  display: block;
+  margin: auto;
 }
-.navbar-brand{
-    font-size: 26px;
+.navbar-brand {
+  font-size: 26px;
 }
-.navbar-brand:hover,.nav-link:hover{
-    color:#314621;
+.navbar-brand:hover,
+.nav-link:hover {
+  color: #314621;
 }
-.nav-link{
-    color:rgb(199, 199, 199);
-    padding-bottom:12px;
-}
-
-ul{
-    margin-left:15px;
-    margin-top:7px;
-    font-size:18px;
+.nav-link {
+  color: rgb(199, 199, 199);
+  padding-bottom: 12px;
 }
 
-a:hover{
-    text-decoration:none;
-}
-.flex-column{
-    text-align: left;
-}
-
-
-
-h6{
-    font-family: Cambria;
-    font-size: 18px;
-}
-a,h5,p{
-    font-family: Cambria;
+ul {
+  margin-left: 15px;
+  margin-top: 7px;
+  font-size: 18px;
 }
 
-.btn-success{
-    width: 70px;
-    background-color: #9c9c9c;
-    border:none;
-    border-radius: 15px;
+a:hover {
+  text-decoration: none;
 }
-.btn-success:hover{
-    background-color: #89ca57;
+.flex-column {
+  text-align: left;
 }
-#kairen{
-    float:left;
-    padding-right:5px;
+
+h6 {
+  font-family: Cambria;
+  font-size: 18px;
+}
+a,
+h5,
+p {
+  font-family: Cambria;
+}
+
+.btn-success {
+  width: 70px;
+  background-color: #9c9c9c;
+  border: none;
+  border-radius: 15px;
+}
+.btn-success:hover {
+  background-color: #89ca57;
+}
+#kairen {
+  float: left;
+  padding-right: 5px;
 }
 ::-webkit-scrollbar {
-    width: 10px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background: #888; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background: #555; 
-  }
+  width: 10px;
+}
 
-   
-    .pictures{
-        font-size: 0px;
-    }
-    .pictures .item{
-        position:relative;
-        display:inline-block;
-    }
-    .pictures .item img{
-        position:relative;
-        z-index:1;
-        padding:10px;
-    }
-    @media screen and (max-width: 600px) {
-        .pictures .item{
-            position:absolute;
-            display:block;
-        }
-        #info3{
-            margin-right:20px;
-        }
-       
-    }
-    .pictures .item .item_description{
-        position:absolute;
-      
-        left: -15px;
-        top: -15px;
-        right: -15px;
-        bottom: -60px;
-        
-        -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-        -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
-        
-        background:#ffffff;
-        padding: 15px;
-    
-        display:none;
-    }
-    .pictures .item .item_description span{
-        color:#7a7a7a;
-        font-size: 15px;
-        display:block;
-        position:absolute;
-        bottom: 15px;
-        height: 30px;			
-    }
-    .pictures .item:hover{
-        z-index: 100;
-    }
-    .pictures .tjGalleryItem .item:hover .item_description{
-        display:block;
-    }
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.pictures {
+  font-size: 0px;
+}
+.pictures .item {
+  position: relative;
+  display: inline-block;
+}
+.pictures .item img {
+  position: relative;
+  z-index: 1;
+  padding: 10px;
+}
+@media screen and (max-width: 600px) {
+  .pictures .item {
+    position: absolute;
+    display: block;
+  }
+  #info3 {
+    margin-right: 20px;
+  }
+}
+.pictures .item .item_description {
+  position: absolute;
+
+  left: -15px;
+  top: -15px;
+  right: -15px;
+  bottom: -60px;
+
+  -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+
+  background: #ffffff;
+  padding: 15px;
+
+  display: none;
+}
+.pictures .item .item_description span {
+  color: #7a7a7a;
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  bottom: 15px;
+  height: 30px;
+}
+.pictures .item:hover {
+  z-index: 100;
+}
+.pictures .tjGalleryItem .item:hover .item_description {
+  display: block;
+}
